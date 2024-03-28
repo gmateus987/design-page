@@ -41,17 +41,17 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 30px;
+        gap: 25px;
     }
 
     .header-btn {
-        width: 160px;
+        width: 145px;
         height: 40px;
         border: none;
         background: linear-gradient(45deg, #48B760, #6BB748);
         border-radius: 18px;
         color: white;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 700;
     }
 
@@ -135,18 +135,22 @@ main {
         display: flex;
         width: 100%;
         align-items: start;
+        justify-content: start;
     }
 
     .otimiza-text {
         display: flex;
+        width: 100%;
         flex-direction: column;
         align-items: start;
+        justify-content: start;
         margin: 0;
     }
 
     .otimiza-text p {
         color: #828282;
         font-size: 20px;
+        width: 500px;
     }
 
     .otimiza-text h1 {
