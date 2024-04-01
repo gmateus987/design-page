@@ -124,6 +124,7 @@ main {
     .img-section {
         display: flex;
         flex-direction: column;
+        gap: 15px;
         width: 100%;
     }
 
@@ -133,6 +134,10 @@ main {
         align-items: center;
         justify-content: center;
         color: #828282;
+    }
+
+    .img-desc h4 {
+        margin: 5px 0 5px 0;
     }
 
     .minor-div {
